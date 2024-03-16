@@ -1,0 +1,110 @@
+{
+    "recipes": [
+      {
+        "recipe_id": 1,
+        "recipe_name": "Chicken Stir Fry",
+        "short_description": "A delicious and quick chicken stir fry with vegetables.",
+        "ingredients": [
+          "550 g chicken breast",
+          "120 ml soy sauce",
+          "200 g basil leaves",
+          "400 g mushrooms",
+          "2 bell peppers, sliced",
+          "3 cloves garlic, minced",
+          "1 tbsp ginger, minced"
+        ],
+        "preparing_time": 25,
+        "calories": 320,
+        "recipe_image": "https://i.ibb.co/r010FgK/recipe1.png"
+      },
+      {
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Pasta",
+        "short_description": "A hearty and flavorful pasta dish loaded with fresh vegetables.",
+        "ingredients": [
+          "300 g pasta",
+          "2 tbsp olive oil",
+          "2 cloves garlic, minced",
+          "1 onion, diced",
+          "1 zucchini, sliced",
+          "1 red bell pepper, chopped",
+          "1 cup cherry tomatoes, halved",
+          "1/2 cup grated Parmesan cheese",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": 20,
+        "calories": 280,
+        "recipe_image": "https://i.ibb.co/r010FgK/recipe1.png"
+      },
+      {
+        "recipe_id": 3,
+        "recipe_name": "Grilled Salmon",
+        "short_description": "A succulent grilled salmon recipe marinated with lemon and herbs.",
+        "ingredients": [
+          "4 salmon fillets",
+          "Juice of 1 lemon",
+          "2 tbsp olive oil",
+          "2 cloves garlic, minced",
+          "1 tsp dried thyme",
+          "1 tsp dried rosemary",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": 15,
+        "calories": 280,
+        "recipe_image": "https://i.ibb.co/r010FgK/recipe1.png"
+      },
+      {
+        "recipe_id": 4,
+        "recipe_name": "Mango Chicken Curry",
+        "short_description": "A delightful curry dish with tender chicken and sweet mango.",
+        "ingredients": [
+          "500 g chicken thighs, diced",
+          "2 ripe mangoes, peeled and diced",
+          "1 onion, chopped",
+          "3 cloves garlic, minced",
+          "1 tbsp curry powder",
+          "400 ml coconut milk",
+          "1 red chili, sliced",
+          "2 tbsp vegetable oil"
+        ],
+        "preparing_time": 35,
+        "calories": 380,
+        "recipe_image": "https://i.ibb.co/r010FgK/recipe1.png"
+      },
+      {
+        "recipe_id": 5,
+        "recipe_name": "Caprese Salad",
+        "short_description": "A classic Italian salad featuring fresh tomatoes, mozzarella, and basil.",
+        "ingredients": [
+          "4 ripe tomatoes, sliced",
+          "200 g fresh mozzarella, sliced",
+          "1/4 cup fresh basil leaves",
+          "2 tbsp balsamic vinegar",
+          "2 tbsp extra virgin olive oil",
+          "Salt and pepper to taste"
+        ],
+        "preparing_time": 10,
+        "calories": 220,
+        "recipe_image": "https://i.ibb.co/r010FgK/recipe1.png"
+      },
+      {
+        "recipe_id": 6,
+        "recipe_name": "Banana Oat Pancakes",
+        "short_description": "Healthy and delicious pancakes made with ripe bananas and oats.",
+        "ingredients": [
+          "2 ripe bananas",
+          "1 cup rolled oats",
+          "2 eggs",
+          "1/2 tsp cinnamon",
+          "1/2 tsp vanilla extract",
+          "1/4 cup milk",
+          "1 tbsp honey",
+          "Butter or oil for cooking"
+        ],
+        "preparing_time": 15,
+        "calories": 180,
+        "recipe_image": "https://i.ibb.co/r010FgK/recipe1.png"
+      }
+    ]
+  }
+  
