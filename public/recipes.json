@@ -1,5 +1,5 @@
-{
-    "recipes": [
+[
+    
       {
         "recipe_id": 1,
         "recipe_name": "Chicken Stir Fry",
@@ -105,6 +105,6 @@
         "calories": 180,
         "recipe_image": "https://i.ibb.co/r010FgK/recipe1.png"
       }
-    ]
-  }
+    
+]
   
