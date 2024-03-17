@@ -12,7 +12,7 @@ const Recipes = ({handleCook}) => {
 
     return (
       
-        <div className="lg:w-2/3 grid lg:grid-cols-2 grid-cols-1 p-3 gap-4">
+        <div className="w-2/3 grid lg:grid-cols-2  grid-cols-1 p-3 gap-4">
            
 
             {

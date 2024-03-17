@@ -47,7 +47,7 @@ const handleAddPrepare = recipe =>
       
       <NavBar></NavBar>
       <Banner></Banner>
-      <div className='flex sm:flex-row justify-evenly items-center container mx-auto my-4'>
+      <div className='flex lg:flex-row flex-col justify-evenly items-center container mx-auto my-4'>
       <Recipes handleCook={handleCook}></Recipes>
       <div className='flex flex-col gap-4'>
       <Lists cook={cook} handleAddPrepare={handleAddPrepare}></Lists>
