@@ -9,8 +9,8 @@ const Recipe = ({recipe,handleCook}) => {
         <div className='p-3 border-solid border-2  rounded-lg border-neutral-200'>
                 <div className='border-b-2 border-neutral-100 p-2'>
                 <img className='mx-auto' src={recipe_image} alt={`cover picture of the  ${recipe_name}`} />
-                <h2 className='text-3xl text-center font-semibold'>{recipe_name}</h2>
-                <p className='text-center text-[18px] text-[#878787]'>{short_description}</p>
+                <h2 className='text-2xl text-center font-semibold my-2'>{recipe_name}</h2>
+                <p className='text-center text-[16px] text-[#878787]'>{short_description}</p>
                 </div>
                 <div className='border-b-2 border-neutral-100 p-2'>
                     <h3 className='text-xl font-bold'>Ingredients: {recipe.ingredients.length}</h3>

@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 import List from './List';
-const Lists = ({cook}) => {
+const Lists = ({cook,handleAddPrepare}) => {
     return (
         <div>
             <div className="p-3 border-b-2 border-neutral-100 w-full">
@@ -9,22 +9,16 @@ const Lists = ({cook}) => {
             
             </div>
             <div>
-                 <div className=' p-4 flex justify-around'>
-                       
-                        
+                 <div className=' p-4 flex justify-around'>   
                         <h3 className='p-10 font-bold w-1/3'>Recipe Name</h3>
                         <h3 className='p-10 font-bold w-1/3'>Preparing Time</h3>
-                        <h3 className='p-10 font-bold w-1/3'>Calories</h3>
-                      
-                    
-                
-                        
+                        <h3 className='p-10 font-bold w-1/3'>Calories</h3>      
                  </div>
            
                 
                 {
                     cook.map((cook,index) => 
-                    <List key={index} cook={cook} index={index}></List>)
+                    <List key={index} cook={cook} index={index} handleAddPrepare={handleAddPrepare}></List>)
                 }
             </div>
            
@@ -35,5 +29,6 @@ const Lists = ({cook}) => {
 Lists.propTypes = 
 {
   cook: PropTypes.array.isRequired,
+  handleAddPrepare:PropTypes.func.isRequired
 }
 export default Lists;
